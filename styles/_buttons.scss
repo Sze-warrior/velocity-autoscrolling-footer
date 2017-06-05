@@ -1,0 +1,19 @@
+.btn-default{
+	width: 280px;
+	height: 40px;
+	font-size: 16px;
+	background-color: #1EB516;
+	border: none;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+
+	&:hover{
+		background-color: darken(#1EB516, 20%);
+		cursor: pointer;
+	}
+}
+
+#btn-top{
+
+}

@@ -1,0 +1,30 @@
+.footer{
+	height: 100px;
+	width: 100%;
+    background-color: $purple;
+    display: table;
+
+    .footer-container{
+    	max-width: $max-width;
+		margin: 0 auto;
+		height: 100%;
+		position: relative;
+    }
+
+    .btn-top-footer{
+    	width: 60px;
+    	height: 60px;
+    	text-align: center;
+    	border-radius: 50%;
+    	background-color: $purple;
+    	margin: 0 auto;
+	    position: absolute;
+	    top: -25px;
+	    right: 0;
+	    left: 0;
+
+    	span{
+    		margin-top: 10px;
+    	}
+    }
+}

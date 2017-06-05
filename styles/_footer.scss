@@ -23,8 +23,17 @@
 	    right: 0;
 	    left: 0;
 
+        &:hover{
+            cursor: pointer;
+
+            .chevron:after{
+                border-top-color: darken(white, 15%);
+            }
+        }
+
     	span{
-    		margin-top: 10px;
+            top: -30px;
+            right: -8px;
     	}
     }
 }

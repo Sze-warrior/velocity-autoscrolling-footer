@@ -4,15 +4,20 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Roboto', Helvetica-neue, Helvetica, Arial, sans-serif, Times-new-roman;
+}
+
+h1, p{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $color-base-font-grey;
 }
 
 p{
-    color: $red;
     text-align: left;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    line-height: $font-base-line-height;
 }
 
 .container {
@@ -25,3 +30,4 @@ p{
     padding: 15px 0px;
 	width: $one-hundred-percentage;
 }
+

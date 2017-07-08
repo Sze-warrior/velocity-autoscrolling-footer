@@ -2,15 +2,20 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Roboto', Helvetica-neue, Helvetica, Arial, sans-serif, Times-new-roman;
+}
+
+h1, p {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #404040;
 }
 
 p {
-  color: #cf150a;
   text-align: left;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
+  line-height: 24px;
 }
 
 .container {
@@ -39,8 +44,10 @@ p {
 
 .footer-message {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 35px;
   margin: 0;
+  font-size: 13px;
+  color: #efefef;
 }
 
 .btn-top-footer {
@@ -54,12 +61,24 @@ p {
   top: -22px;
   right: 0;
   left: 0;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .btn-top-footer:hover {
   cursor: pointer;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .btn-top-footer:hover .chevron:before {
-  border-color: #d9d9d9;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-color: #c9c9c9;
 }
 .btn-top-footer span {
   top: -30px;
@@ -79,7 +98,11 @@ p {
   vertical-align: top;
   width: 0.55em;
   right: 0;
-  border-color: orange;
+  border-color: #efefef;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .chevron.right:before {
@@ -95,4 +118,8 @@ p {
 .chevron.left:before {
   left: 0.25em;
   transform: rotate(-135deg);
+}
+
+.text-center {
+  text-align: center;
 }

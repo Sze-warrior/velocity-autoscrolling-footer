@@ -11,7 +11,8 @@
     vertical-align: top;
     width: 0.55em;
     right: 0;
-    border-color: orange;
+    border-color: $color-footer-white;
+    @include transition(0.3s);
 }
 
 .chevron.right:before {

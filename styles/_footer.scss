@@ -2,44 +2,43 @@
 	height: 100px;
 	width: 100%;
     background-color: $purple;
-    display: table;
+}
 
-    .footer-container{
-    	max-width: $max-width;
-		margin: 0 auto;
-		height: 100%;
-		position: relative;
-    }
+.footer-container{
+    max-width: $max-width;
+    margin: 30px auto 0;
+    height: 100px;
+    position: relative;
+}
 
-    .footer-message{
-        text-align: center;
-        padding-top: 40px;
-        margin: 0;
-    }
+.footer-message{
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
 
-    .btn-top-footer{
-    	width: 60px;
-    	height: 60px;
-    	text-align: center;
-    	border-radius: 50%;
-    	background-color: $purple;
-    	margin: 0 auto;
-	    position: absolute;
-	    top: -22px;
-	    right: 0;
-	    left: 0;
+.btn-top-footer{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: $purple;
+    margin: 0 auto;
+    position: absolute;
+    top: -22px;
+    right: 0;
+    left: 0;
 
-        &:hover{
-            cursor: pointer;
+    &:hover{
+        cursor: pointer;
 
-            .chevron:before{
-                border-color: darken(white, 15%);
-            }
+        .chevron:before{
+            border-color: darken(white, 15%);
         }
+    }
 
-    	span{
-            top: -30px;
-            right: -8px;
-    	}
+    span{
+        top: -30px;
+        right: -8px;
     }
 }

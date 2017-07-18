@@ -4,7 +4,7 @@ var btnTop = document.querySelector(".btn-top-footer");
 var header = document.getElementById("top");
 
 function scrollTop(){
-	Velocity(header, "scroll", {duration:1000, easing:"easeInOut"});
+	Velocity(header, "scroll", {easing: "ease-in-out",duration:900});
 };	
 
 btnTop.addEventListener("click", scrollTop, false);

@@ -2,53 +2,50 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', Helvetica-neue, Helvetica, Arial, sans-serif, Times-new-roman;
-}
+  font-family: 'Roboto', Helvetica-neue, Helvetica, Arial, sans-serif, Times-new-roman; }
 
 h1, p {
   padding-left: 20px;
   padding-right: 20px;
-  color: #404040;
-}
+  color: #404040; }
 
 p {
   text-align: left;
   margin-top: 15px;
   margin-bottom: 15px;
-  line-height: 24px;
-}
+  line-height: 24px; }
 
 .container {
   max-width: 700px;
   min-width: 320px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .row {
   padding: 15px 0px;
-  width: 100%;
-}
+  width: 100%; }
+
+.intro {
+  color: #7522C6;
+  font-weight: 600;
+  font-size: 18px; }
 
 .footer {
   height: 100px;
   width: 100%;
-  background-color: #7522C6;
-}
+  background-color: #7522C6; }
 
 .footer-container {
   max-width: 700px;
   margin: 30px auto 0;
   height: 100px;
-  position: relative;
-}
+  position: relative; }
 
 .footer-message {
   text-align: center;
   padding-top: 35px;
   margin: 0;
   font-size: 13px;
-  color: #efefef;
-}
+  color: #efefef; }
 
 .btn-top-footer {
   width: 60px;
@@ -64,26 +61,22 @@ p {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-.btn-top-footer:hover {
-  cursor: pointer;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-.btn-top-footer:hover .chevron:before {
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-color: #c9c9c9;
-}
-.btn-top-footer span {
-  top: -30px;
-  right: -8px;
-}
+  transition: 0.3s; }
+  .btn-top-footer:hover {
+    cursor: pointer;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .btn-top-footer:hover .chevron:before {
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      border-color: #c9c9c9; }
+  .btn-top-footer span {
+    top: -30px;
+    right: -8px; }
 
 .chevron::before {
   border-style: solid;
@@ -102,24 +95,21 @@ p {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
+  transition: 0.3s; }
 
 .chevron.right:before {
   left: 0;
-  transform: rotate(45deg);
-}
+  transform: rotate(45deg); }
 
 .chevron.bottom:before {
   top: 0;
-  transform: rotate(135deg);
-}
+  transform: rotate(135deg); }
 
 .chevron.left:before {
   left: 0.25em;
-  transform: rotate(-135deg);
-}
+  transform: rotate(-135deg); }
 
 .text-center {
-  text-align: center;
-}
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
